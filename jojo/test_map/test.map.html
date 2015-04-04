@@ -1,0 +1,28 @@
+<!DOCTYPE html "-//W3C//DTD XHTML 1.0 Strict//EN" 
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="robots" content="noindex,nofollow,noarchive" />
+    <title>Google Maps サンプル</title>
+
+    <script type="text/javascript"
+      src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBA5K0t2HNiulSdc6zDJ6nzjkwGXU9mO_o&sensor=false">
+    </script>
+
+    <script type="text/javascript" src = js_file/sample.js></script>
+
+  </head>
+  <body onload="initialize()">
+    <p>自宅の地図です。</p>
+
+    <div id="map_canvas" style="width:600px; height:600px"></div>
+	<p id="latlng" style="font-size:10px;"></p>
+	<p>
+	<input type="button" id="tokyo" value="座標計算" onclick="dispLatLng()" />
+	<input type="button" id="marker" value="マーカー" onclick="put_marker_on_center()" />
+	<input type="button" id="del_marker" value="マーカー削除" onclick="clear_all_marker()" />
+	<input type="button" id="del_marker2" value="時刻表示" onclick="get_time()" />
+	</p>
+  </body>
+</html>
