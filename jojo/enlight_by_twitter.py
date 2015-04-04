@@ -10,10 +10,10 @@ consumer_key = ""
 consumer_secret = ""
 
 oath_key_dict = {
-    "consumer_key": "btaFCVBWqLUkyuqjJVK32yzoq",
-    "consumer_secret": "0kCjsoKCcyIAqIMXSOapAzAkFkm2KbMmTBdtL5JrNs04Tao3NG",
-    "access_token": "1404461461-gszluwE5vDm64lmb4LRjV1WdS6BhVpXzVFXaOXm",
-    "access_token_secret": "Aclgyk7gmQYjxnOxCETRtxPaFArzloJfLHW3wfWtfxxj3"
+    "consumer_key": "",
+    "consumer_secret": "",
+    "access_token": "",
+    "access_token_secret": ""
 }
 
 def post_rep(tweet,oath_key_dict,text):

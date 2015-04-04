@@ -3,10 +3,10 @@ import twitter
 
 ### Constants                                                                                                                                                     
 oath_key_dict = {
-    "consumer_key": "btaFCVBWqLUkyuqjJVK32yzoq",
-    "consumer_secret": "0kCjsoKCcyIAqIMXSOapAzAkFkm2KbMmTBdtL5JrNs04Tao3NG",
-    "access_token": "1404461461-vwwdfmQwjm0pSpoedbeW796gMjbIWoD6qQZLT5e",
-    "access_token_secret": "YBRHBPER2nVlohtg3rrGgfK4N6i7yRnKH0GibXeF4daix"
+    "consumer_key": "",
+    "consumer_secret": "",
+    "access_token": "",
+    "access_token_secret": ""
 }
 """
 import json, urllib2, oauth2 as oauth
